@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Maju Sejahtera</h1>
-    <div id="message"></div>
+
     <div>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
       dolore mollitia blanditiis, eaque asperiores unde ut facere libero enim
@@ -42,40 +42,5 @@
       inventore quia laboriosam corrupti similique. Saepe hic beatae ipsa ullam
       reprehenderit praesentium aspernatur dolores sint.
     </div>
-    <script>
-      const dt = new Date();
-      const month = dt.getMonth();
-      let msg;
-      switch (month) {
-        case 0:
-          msg = "january";
-          break;
-        case 1:
-          msg = "February";
-          break;
-        case 2:
-          msg = "Maret";
-          break;
-        case 3:
-          msg = "April";
-          break;
-        case 5:
-          msg = "Mei";
-          break;
-        case 6:
-          msg = "Juni";
-          break;
-        case 7:
-          msg = "Juli";
-          break;
-
-        default:
-          msg = "tidak ada bulan";
-          break;
-
-          const el = document.getElementById("message");
-          el.innerHTML = msg;
-      }
-    </script>
   </body>
 </html>
